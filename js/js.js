@@ -36,13 +36,13 @@ function show() {
 }
 
 // 背景动态改变
-if (deviceWidth < 410) {
-    document.body.style.backgroundImage = "url(img/bk.jpg)";
-}
-if (deviceWidth > 410) {
+// if (deviceWidth < 410) {
+//     document.body.style.backgroundImage = "url(img/bk.jpg)";
+// }
+// if (deviceWidth > 410) {
     document.body.style.background = "linear-gradient(45deg, rgba(254, 172, 94, 0.5), rgba(199, 121, 208, 0.5), rgba(75, 192, 200, 0.5))";
     document.body.style.backgroundPosition = "center 0";
     document.body.style.backgroundRepeat = "no-repeat";
     document.body.style.backgroundAttachment="fixed";
     document.body.style.backgroundSize="cover";
-}
+// }
